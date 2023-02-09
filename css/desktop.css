@@ -5,6 +5,18 @@
   .features {
     padding: 120px 0 120px;
   }
+  .sup-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+  }
+  .sub-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+  }
   .section-features {
     flex-direction: row;
     gap: 24px;
@@ -22,4 +34,5 @@
     padding-top: 120px;
     padding-bottom: 120px;
   }
+  
 }

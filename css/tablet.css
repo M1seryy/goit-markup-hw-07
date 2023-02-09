@@ -34,4 +34,19 @@
   .cutomer-list {
     gap: 24px;
   }
+  .footer-content {
+    width: 264px;
+    height: 110px;
+    text-align: left;
+  }
+  .footer-logo {
+    margin: 0 0 16px 0;
+  }
+  .footer-soc {
+  }
+  .footer-form-email {
+  }
+  .full-footer-content {
+    flex-direction: row;
+  }
 }
