@@ -32,9 +32,12 @@
     padding-left: 16px;
     padding-right: 16px;
   }
+  .mini-container-footer {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
   .cusomer-link {
     width: 190px;
     height: 88px;
   }
-  
 }

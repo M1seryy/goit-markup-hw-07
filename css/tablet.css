@@ -38,15 +38,34 @@
     width: 264px;
     height: 110px;
     text-align: left;
+    margin: 0px;
   }
   .footer-logo {
     margin: 0 0 16px 0;
   }
   .footer-soc {
+    margin: 0px;
   }
-  .footer-form-email {
+  .footer-icon-text {
+    text-align: left;
   }
   .full-footer-content {
     flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+  .footer-form-email {
+    width: 453px;
+    height: 80px;
+    flex-direction: row;
+  }
+  .footer-form {
+    flex-direction: row;
+    gap: 24px;
+  }
+  .footer-email {
+    width: 264px;
+    height: 40px;
   }
 }
