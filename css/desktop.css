@@ -1,0 +1,25 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+  }
+  .features {
+    padding: 120px 0 120px;
+  }
+  .section-features {
+    flex-direction: row;
+    gap: 24px;
+  }
+  .icon-item {
+    display: block;
+  }
+  .team-list {
+    flex-direction: row;
+  }
+  .cutomer-list {
+    gap: 24px;
+  }
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}

@@ -1,0 +1,39 @@
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    max-width: 428px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .icon-item {
+    display: none;
+  }
+  .sub-title {
+    text-align: center;
+  }
+  .our-work {
+    display: none;
+  }
+
+  .mini-container {
+    padding-left: 83px;
+    padding-right: 83px;
+  }
+  .team {
+    padding-bottom: 128px;
+    padding-top: 96px;
+  }
+  .team-list {
+    flex-direction: column;
+  }
+  .team-list-item {
+    margin: 0 auto;
+  }
+  .mini-container-cutomers {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .cusomer-link {
+    width: 190px;
+    height: 88px;
+  }
+}

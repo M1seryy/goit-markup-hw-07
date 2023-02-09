@@ -1,0 +1,37 @@
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    max-width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .section-features {
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+  .features-item {
+    width: calc((100% - 24px) / 2);
+    height: 120px;
+  }
+  .our-work {
+    display: none;
+  }
+  .mini-container {
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+  .mini-container-cutomers {
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+  .team-list {
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 64px;
+    column-gap: 24px;
+  }
+  .cutomer-list {
+    gap: 24px;
+  }
+}
