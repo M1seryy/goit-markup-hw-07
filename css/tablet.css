@@ -76,4 +76,20 @@
     font-size: 56px;
     line-height: 60px;
   }
+  .nav-container {
+    display: flex;
+  }
+  .header-links {
+    margin-left: 123px;
+  }
+  .contacts {
+    display: flex;
+  }
+  .details {
+    flex-direction: column;
+    margin-top: 24px;
+  }
+  .mob-menu {
+    display: none;
+  }
 }

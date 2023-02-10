@@ -79,4 +79,16 @@
     line-height: calc(60 / 56);
     padding-bottom: 64px;
   }
+  .mob-menu {
+    display: none;
+  }
+  .nav-container {
+    display: flex;
+  }
+  .contacts {
+    display: flex;
+  }
+  .details {
+    gap: 40px;
+  }
 }

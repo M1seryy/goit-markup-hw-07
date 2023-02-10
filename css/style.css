@@ -154,7 +154,7 @@ h6 {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  width: 328px;
+
   padding: 0px;
   margin: 0;
 }
@@ -930,5 +930,14 @@ h6 {
   .cusomer-link {
     width: 190px;
     height: 88px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .cutomer-list {
+    justify-content: center;
+  }
+  .hero-text {
+    max-width: 318px;
   }
 }
