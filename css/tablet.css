@@ -68,4 +68,12 @@
     width: 264px;
     height: 40px;
   }
+  .hero {
+    background-image: url("../images/background/Dark-bg-tab-min.png");
+  }
+  .hero-text {
+    max-width: 494px;
+    font-size: 56px;
+    line-height: 60px;
+  }
 }

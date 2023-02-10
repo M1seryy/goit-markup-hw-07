@@ -40,4 +40,7 @@
     width: 190px;
     height: 88px;
   }
+  .hero-text {
+    max-width: 318px;
+  }
 }
