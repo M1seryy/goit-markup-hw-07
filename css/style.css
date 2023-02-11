@@ -960,7 +960,11 @@ h6 {
   border-color: #404bbf;
   color: #404bbf;
 }
+.js-menu-container {
+  display: none;
+}
 .is-open {
+  display: block;
   width: 100%;
   height: 100vh;
   box-sizing: border-box;
