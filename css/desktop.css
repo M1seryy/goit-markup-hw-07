@@ -91,4 +91,30 @@
   .details {
     gap: 40px;
   }
+  .header-links {
+    flex-direction: row;
+  }
+  .header-link-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+
+  .header-links {
+    font-style: normal;
+    font-weight: 500;
+    line-height: calc(24 / 16);
+    list-style: none;
+    width: 261px;
+    height: 24px;
+    margin: 0 0 0 123px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .details {
+    gap: 0;
+  }
 }
