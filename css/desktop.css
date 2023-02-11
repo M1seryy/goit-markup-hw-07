@@ -116,5 +116,10 @@
   }
   .details {
     gap: 0;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .detals-item{
+    color: #434455;
   }
 }
