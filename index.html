@@ -36,11 +36,16 @@
     <link rel="stylesheet" href="./css/desktop.css" />
   </head>
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="container">
         <div class="header-content">
           <nav class="navbar">
             <a class="header-logo link" href="#"><span>WEB</span>STUDIO</a>
+            <svg class="mob-menu js-open-menu">
+              <use
+                href="./images/svg/mob-menu.svg#icon-charm_menu-hamburger"
+              ></use>
+            </svg>
             <div class="nav-container">
               <ul class="header-links">
                 <li class="header-link-item">
@@ -71,10 +76,10 @@
           </address>
         </div>
       </div>
-    </header> -->
+    </header>
 
     <main>
-      <!-- <section class="hero">
+      <section class="hero">
         <div class="overlay">
           <div class="container">
             <div class="content-hero">
@@ -85,7 +90,7 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
 
       <section class="features">
         <div class="container">
@@ -444,8 +449,8 @@
         </div>
       </section>
     </main>
-    <!-- <footer class="footer">
-      <div class="container">
+    <footer class="footer">
+      <div class="container mini-container mini-container-footer">
         <div class="full-footer-content">
           <div class="footer-content">
             <a class="footer-logo link" href="./index.html" alt="WebStudio"
@@ -457,7 +462,7 @@
             </p>
           </div>
           <div class="footer-soc">
-            <p class="footer-text">Social media</p>
+            <p class="footer-icon-text">Social media</p>
             <ul class="footer-icon-list list">
               <li class="footer-icon-soc-item">
                 <a class="footer-soc-item-link link" href="#"
@@ -514,7 +519,8 @@
           </div>
         </div>
       </div>
-    </footer> -->
+    </footer>
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button data-modal-close class="close-modal-btn">
@@ -591,6 +597,76 @@
         </form>
       </div>
     </div>
+
+    <div class="js-menu-container">
+      <div class="mob-modal-wrap">
+        <button class="close-modal-mob js-close-menu">
+          <svg class="exit-btn-svg-mob">
+            <use href="./images/svg/symbol-exit-opt.svg#icon-exit"></use>
+          </svg>
+        </button>
+        <ul class="header-links">
+          <li class="header-link-item">
+            <a class="link active-link mob-link" href="./index.html">Studio</a>
+          </li>
+          <li class="header-link-item">
+            <a class="link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="header-link-item">
+            <a class="link" href="#">Contacts</a>
+          </li>
+        </ul>
+        <div class="mob-menu-bottom-part">
+          <ul class="details">
+            <li class="details-item">
+              <a class="details-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="details-item">
+              <a class="details-link link mob-active" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+          <ul class="icon-list list mob-icon-list">
+            <li class="icon-soc-item">
+              <a class="soc-item-link link" href="#"
+                ><svg class="soc-icon">
+                  <use
+                    href="./images/svg/soc-icons-opt.svg#icon-instagram"
+                  ></use></svg
+              ></a>
+            </li>
+            <li class="icon-soc-item">
+              <a class="soc-item-link link" href="#"
+                ><svg class="soc-icon">
+                  <use
+                    href="./images/svg/soc-icons-opt.svg#icon-twitter"
+                  ></use></svg
+              ></a>
+            </li>
+            <li class="icon-soc-item">
+              <a class="soc-item-link link" href="#"
+                ><svg class="soc-icon">
+                  <use
+                    href="./images/svg/soc-icons-opt.svg#icon-facebook"
+                  ></use></svg
+              ></a>
+            </li>
+            <li class="icon-soc-item">
+              <a class="soc-item-link link" href="#"
+                ><svg class="soc-icon">
+                  <use
+                    href="./images/svg/soc-icons-opt.svg#icon-linkedin"
+                  ></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mob-menu.js"></script>
   </body>
 </html>

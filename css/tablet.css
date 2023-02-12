@@ -34,4 +34,94 @@
   .cutomer-list {
     gap: 24px;
   }
+  .footer-content {
+    width: 264px;
+    height: 110px;
+    text-align: left;
+    margin: 0px;
+  }
+  .footer-logo {
+    margin: 0 0 16px 0;
+  }
+  .footer-soc {
+    margin: 0px;
+  }
+  .footer-icon-text {
+    text-align: left;
+  }
+  .full-footer-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+  .footer-form-email {
+    width: 453px;
+    height: 80px;
+    flex-direction: row;
+  }
+  .footer-form {
+    flex-direction: row;
+    gap: 24px;
+  }
+  .footer-email {
+    width: 264px;
+    height: 40px;
+  }
+  .hero {
+    background-image: url("../images/background/Dark-bg-tab-min.png");
+  }
+  .hero-text {
+    max-width: 494px;
+    font-size: 56px;
+    line-height: 60px;
+  }
+  .nav-container {
+    display: flex;
+  }
+  .header-links {
+    margin-left: 123px;
+  }
+  .contacts {
+    display: flex;
+  }
+  .details {
+    flex-direction: column;
+    /* margin-top: 24px; */
+  }
+  .header-content {
+    align-items: center;
+  }
+  .mob-menu {
+    display: none;
+  }
+  .header-links {
+    flex-direction: row;
+  }
+  .header-link-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+
+  .header-links {
+    font-style: normal;
+    font-weight: 500;
+    line-height: calc(24 / 16);
+    list-style: none;
+    width: 261px;
+    height: 24px;
+    margin: 0 0 0 123px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .details {
+    gap: 0;
+  }
+  .details-link{
+    font-size: 12px;
+  }
 }
