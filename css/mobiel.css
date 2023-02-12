@@ -24,6 +24,7 @@
   }
   .team-list {
     flex-direction: column;
+    gap: 72px;
   }
   .team-list-item {
     margin: 0 auto;
@@ -43,4 +44,5 @@
   .hero-text {
     max-width: 318px;
   }
+  
 }

@@ -89,7 +89,7 @@
     flex-direction: column;
     /* margin-top: 24px; */
   }
-  .header-content{
+  .header-content {
     align-items: center;
   }
   .mob-menu {
@@ -120,5 +120,8 @@
   }
   .details {
     gap: 0;
+  }
+  .details-link{
+    font-size: 12px;
   }
 }

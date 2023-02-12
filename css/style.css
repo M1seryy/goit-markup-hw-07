@@ -83,6 +83,13 @@ img {
 .nav-container {
   display: none;
 }
+.active-link {
+  color: #404bbf !important;
+}
+.active-link::after {
+  content: "";
+  display: none !important;
+}
 
 .is-open {
   transition: 300ms ease-in-out;
